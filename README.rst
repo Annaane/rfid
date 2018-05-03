@@ -34,12 +34,12 @@ What works and not?
   #. Firmware self check of MFRC522.
   #. Set the UID, write to sector 0, and unbrick Chinese UID changeable MIFARE cards.
   #. Manage the SPI chip select pin (aka SS, SDA)
+  #. More than 2 modules work without multiplexer.
 
 * **Works partially**
 
   #. Communication with MIFARE Ultralight.
   #. Other PICCs (Ntag216).
-  #. More than 2 modules, require a multiplexer `#191 <https://github.com/miguelbalboa/rfid/issues/191#issuecomment-242631153>`_.
 
 * **Doesn't work**
   
